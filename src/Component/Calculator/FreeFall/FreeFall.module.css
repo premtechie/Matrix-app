@@ -1,0 +1,106 @@
+.free{
+    width:100%;
+}
+
+.free .Card{
+    width:50%;
+    margin:5px auto;
+ 
+}
+.Card .Board{
+    border-radius: 10px;
+}
+.Card .Form{
+    margin:20px 10px;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+}
+.Card .Form .input .field{
+    width:150px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+.Card .Form .input select{
+        width: 80px;
+        height: 35px;
+        padding:5px;
+        margin-left: 10px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+}
+.Card button{
+    width:100px;
+    padding :10px;
+    margin:10px;
+    left:10px;
+    border:none;
+    background-color:inherit;
+    font-size: 12px;
+    border:1px solid rgb(245, 192, 95);
+    border-radius: 8px;
+}
+.Card button:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.alert{
+    position: fixed;
+    font-size: 12px;
+    width:20%;
+    top: 60px;
+    left: 40%;
+}
+
+@media(max-width:650px){
+    .free .Card{
+        width:90%;
+        margin:5px auto;
+     
+    }
+    .Card .Form{
+        margin:10px 5px;
+        padding:0;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+    .Card .Form .input .field{
+        width:80px;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 17px;
+        display: block;
+    }
+    .Card .Form .input select{
+            width: 40px;
+            height: 33px;
+            padding:3px;
+            margin-left: 5px;
+    }
+    .Card button{
+        width:70px;
+        font-size: 12px;
+        border:1px solid rgb(245, 192, 95);
+        border-radius: 8px;
+    }
+    
+.alert{
+    position: fixed;
+    font-size: 12px;
+   min-width:50%;
+    top: 60px;
+    left: 25%;
+}
+}

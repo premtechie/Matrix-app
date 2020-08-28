@@ -1,0 +1,47 @@
+.Content{
+    margin:20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.Content .para1{
+    margin-top:20px;
+    width:45%;
+    padding:0 30px;
+    text-align: center;
+}
+
+.Content .para1 .p1{
+    width:85%;
+    margin: 10px auto;
+    text-align: start;
+    padding:0 10px;
+}
+
+
+@media(max-width:650px){
+    .Content{
+        margin:10px 0;
+    }
+    .Content .para1{
+        margin-top:20px;
+        width:70%;
+        padding:0 30px;
+        text-align: center;
+    }
+    
+    .Content .para1 .p1{
+        width:100%;
+        font-size:14px;
+        margin: 10px auto;
+        text-align: start;
+        padding:0px 0;
+    }
+    .Content .para1 .p1 h1{
+        font-size: 20px;
+        padding:10px 0;
+    }
+    .Content .para1 .p1 h2{
+        font-size: 16px;
+    }
+}

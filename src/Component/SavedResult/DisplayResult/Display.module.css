@@ -1,0 +1,22 @@
+.main{
+    width: 100%;
+    color:whitesmoke;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.main .btn button{
+    width: 50px;
+    height: 30px;
+    border: 1px solid orange;
+    background-color:inherit ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .btn button:hover{
+    background-color: orange;
+    border: black;
+    color:white;
+}
+

@@ -1,0 +1,14 @@
+{
+    "CITY":{
+        "HONDACITY":15,
+        "SWIFT":20,
+        "HYUNDAI":17,
+        "ALTO":22
+    },
+    "HIGHWAY":{
+        "HONDACITY":17,
+        "SWIFT":22,
+        "HYUNDAI":19,
+        "ALTO":24
+    }
+}

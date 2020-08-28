@@ -1,0 +1,146 @@
+.free{
+    width:100%;
+    margin-top:80px;
+}
+
+.free .Card{
+    width:50%;
+    margin:30px auto;
+ 
+}
+.Card .Board{
+    border-radius: 10px;
+}
+.Card .Form{
+    margin:20px 20px;
+    padding:5px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    justify-content: space-around;
+}
+.Card .Form .input .field{
+    width:150px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.Card .Form .input .ifield{
+    width:200px;
+    height: 30px;
+    padding: 0 28px;
+    font-size: 16px;
+}
+
+.Card .Form .input select{
+        width: 80px;
+        height: 35px;
+        padding:5px;
+        margin-left: 10px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+}
+.Card .Form .input .type{
+    width:120px;
+}
+.Card button{
+    width:100px;
+    padding :10px;
+    margin:10px;
+    left:10px;
+    border:none;
+    background-color:inherit;
+    font-size: 12px;
+    border:1px solid rgb(245, 192, 95);
+    border-radius: 8px;
+}
+.Card button:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.Card .save{
+    width:100px;
+    padding :10px;
+    margin:10px;
+    left:10px;
+    border:none;
+    background-color:rgb(245, 192, 95);
+    font-size: 12px;
+    border-radius: 8px;
+}
+.Card .save:hover{
+    background-color: whitesmoke;
+    border:1px solid rgb(245, 192, 95);
+}
+
+
+.alert{
+    position: fixed;
+    font-size: 12px;
+    width:20%;
+    top: 60px;
+    left: 40%;
+}
+
+
+@media(max-width:650px){
+    .free{
+        margin-top: 70px;
+    }
+    .free .Card{
+        width:90%;
+        margin:20px auto;
+     
+    }
+    .Card .Form{
+        margin:10px 5px;
+        padding:0;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    
+    .Card .Form .input .field{
+        width:80px;
+        height: 30px;
+        padding: 0 10px;
+        font-size: 17px;
+        display: block;
+    }
+    .Card .Form .input .ifield{
+        width:87px;
+        height: 30px;
+    }
+
+
+    .Card .Form .input select{
+            width: 60px;
+            height: 33px;
+            padding:3px;
+            margin-left: 5px;
+    }
+   
+    .Card button{
+        width:70px;
+        font-size: 12px;
+        border:1px solid rgb(245, 192, 95);
+        border-radius: 8px;
+    }
+    .alert{
+        position: fixed;
+        font-size: 12px;
+       min-width:50%;
+        top: 60px;
+        left: 25%;
+    }
+}
