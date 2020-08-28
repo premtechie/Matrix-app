@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Matrix-app/static/css/main.48054420.chunk.css",
+    "main.js": "/Matrix-app/static/js/main.2a85ba3b.chunk.js",
+    "main.js.map": "/Matrix-app/static/js/main.2a85ba3b.chunk.js.map",
+    "runtime-main.js": "/Matrix-app/static/js/runtime-main.74acec06.js",
+    "runtime-main.js.map": "/Matrix-app/static/js/runtime-main.74acec06.js.map",
+    "static/js/2.10ef2198.chunk.js": "/Matrix-app/static/js/2.10ef2198.chunk.js",
+    "static/js/2.10ef2198.chunk.js.map": "/Matrix-app/static/js/2.10ef2198.chunk.js.map",
+    "index.html": "/Matrix-app/index.html",
+    "precache-manifest.1425f3d1d091731a145f762eceb17455.js": "/Matrix-app/precache-manifest.1425f3d1d091731a145f762eceb17455.js",
+    "service-worker.js": "/Matrix-app/service-worker.js",
+    "static/css/main.48054420.chunk.css.map": "/Matrix-app/static/css/main.48054420.chunk.css.map",
+    "static/js/2.10ef2198.chunk.js.LICENSE.txt": "/Matrix-app/static/js/2.10ef2198.chunk.js.LICENSE.txt",
+    "static/media/robo.jpg": "/Matrix-app/static/media/robo.3e6faefb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74acec06.js",
+    "static/js/2.10ef2198.chunk.js",
+    "static/css/main.48054420.chunk.css",
+    "static/js/main.2a85ba3b.chunk.js"
+  ]
+}
