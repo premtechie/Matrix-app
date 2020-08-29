@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3077c2369e872a38c87c5c936bc02589",
+    "revision": "1a54f9080bc1a4d7005b74f36187aa1c",
     "url": "/Matrix-app/index.html"
   },
   {
-    "revision": "6364ffa77af69197d642",
+    "revision": "75b6d2a0a7f46d899840",
     "url": "/Matrix-app/static/css/main.48054420.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Matrix-app/static/js/2.10ef2198.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6364ffa77af69197d642",
-    "url": "/Matrix-app/static/js/main.2a85ba3b.chunk.js"
+    "revision": "75b6d2a0a7f46d899840",
+    "url": "/Matrix-app/static/js/main.58aea8b5.chunk.js"
   },
   {
     "revision": "ca57facbc81b7a1c88ae",
